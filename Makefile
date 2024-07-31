@@ -1,6 +1,6 @@
 IMAGE_REPOSITORY ?= dbreyfogle/k3d-nvidia-runtime
-K3S_TAG ?= v1.28.8-k3s1
-CUDA_TAG ?= 12.4.1-base-ubuntu22.04
+K3S_TAG ?= v1.29.6-k3s2
+CUDA_TAG ?= 12.5.1-base-ubuntu24.04
 IMAGE_TAG ?= $(K3S_TAG)-cuda-$(CUDA_TAG)
 
 IMAGE := $(IMAGE_REPOSITORY):$(IMAGE_TAG)

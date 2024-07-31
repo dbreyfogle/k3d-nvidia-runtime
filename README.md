@@ -6,7 +6,7 @@ This repository provides a custom Docker image which enables K3d to run CUDA con
 
 ```bash
 k3d cluster create \
-    --image dbreyfogle/k3d-nvidia-runtime:v1.28.8-k3s1-cuda-12.4.1-base-ubuntu22.04 \
+    --image dbreyfogle/k3d-nvidia-runtime:v1.29.6-k3s2-cuda-12.5.1-base-ubuntu24.04 \
     --gpus all \
     gpu-cluster
 ```
